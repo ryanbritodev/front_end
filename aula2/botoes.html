@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Botões</title>
+
+        <!-- CSS INTERNO -->
+            <style>
+                .entrar {
+                    background-color: #ffff;
+                    color: rgb(41,118,211);
+                    border: blue;
+                    width: 105px;
+                    height: 36px;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                }
+
+                .cadastro {
+                    background-color: rgb(200,0,0);
+                    color: #ffff;
+                    border: none;
+                    width: 105px;
+                    height: 36px;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                }
+
+                /* Ao passar o mouse */
+                .cadastro:hover{
+                    opacity: 0.8;
+                }
+
+                /* Ao clicar */
+                .cadastro:active{
+                    opacity: 0.5;
+                }
+            </style>
+
+        </head>
+        <body>
+
+            <button class="cadastro">Subscribe</button>
+            <button class="entrar">Join</button>
+
+        </body>
+    </html>
