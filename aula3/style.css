@@ -13,3 +13,17 @@ p {
     /* margin: 50px 10px 30px 5px; */
     margin: 0px auto;
 }
+
+.texto-estilizado {
+    font-family: Arial;
+    text-align: justify;
+    font-size: 10px;
+    color:red;
+    line-height: 30px;
+}
+
+span {
+    font-weight: bold;
+    color: blueviolet;
+    text-decoration: underline;
+}
