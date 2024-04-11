@@ -1,0 +1,28 @@
+.container {
+    background-color: aquamarine;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*align-items: strech */
+    /* align-items: flex-end */
+    /* acompanha o tamanho dos elementos  */
+    /* flex-flow: row wrap; (declara os dois ao mesmo tempo)*/
+}
+
+/* todas as divs dentro do container */
+.container div {
+    background-color: #25795d;
+    color: white;
+    /* para altura não ficar fixa, só apagar ou usar o min-height */
+    height: 80px;
+    /* height: fit-content; */
+    width: 120px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+/* font-size: 14px */
+/* font-size: 2rem (elemento raíz vezes dois) */
