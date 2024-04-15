@@ -9,6 +9,7 @@ body {
 
 nav {
     text-align: center;
+    margin-top: 18px;
 }
 
 ul {
@@ -44,12 +45,12 @@ a:hover {
     left: 0; 
     margin-left: 30px; 
     margin-bottom: 44px;
-    line-height: 16px;
+    line-height: 11px;
     white-space: nowrap;
 }
 
 .titulo h1 {
-    margin-top: 0px;
+    margin-top: 15px;
     font-family: "Libre Bodoni", serif;
     font-size: 96px;
 }
