@@ -1,0 +1,57 @@
+table {
+    width: 70%;
+    min-width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 51px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+tr.planos {
+    background-color: blue;
+}
+
+tr.planos th {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr.precos {
+    background-color: rgb(238, 238, 238);
+}
+
+tr.precos th {
+    text-transform: uppercase;
+}
+
+/* Contagem dos Filhos 
+tbody tr:nth-child(3) td {
+    background-color: rgb(141, 67, 210);
+    color: white;
+} */
+
+tbody tr:nth-child(even) td {
+    background-color: #b3e6ff;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #53b8ea;
+}
+
+tbody tr:hover td {
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+    transition: all .3s;
+}
