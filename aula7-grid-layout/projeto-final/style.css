@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.grid-item1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+}
+
+.grid-item2 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 1;
+}
+
+.grid-item3 {
+    grid-column: 6 / 7;
+    grid-row: 1 / 1;
+}
+
+.grid-item4 {
+    grid-column: 5 / 6;
+    grid-row: 2 / 2;
+}
+
+.grid-item5 {
+    grid-column: 6 / 7;
+    grid-row: 2 / 2;
+}
