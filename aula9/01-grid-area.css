@@ -5,10 +5,10 @@
     display: grid;
     grid-template-rows: 100px 300px 100px;
     grid-template-columns: 3fr 1fr;
-    gap: 10px 30px;
-    grid-auto-rows: 100px;
-    /* Espaço entre linhas e colunas */
-    /* 1fr 1fr 1fr 1fr */
+    grid-template-areas: "header header"
+                         "main aside"
+                         "footer footer";
+                         /* É possível mudar a ordem de várias maneiras */
 }
 
 .item {
@@ -16,4 +16,20 @@
     background-color: #fe6f8e;
     color: white;
     border: 10px solid #ff315e;
+}
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: main;
+}
+
+.item-3 {
+    grid-area: aside;
+}
+
+.item-4 {
+    grid-area: footer;
 }
