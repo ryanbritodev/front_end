@@ -1,0 +1,21 @@
+https://sass-lang.com/
+https://stylus-lang.com/
+
+Tipos de Arquivo
+.sass / .scss
+
+É convertido para .css no seu navegador
+
+Temos que instalar o sass, usando npm
+npm install -g sass
+Após instalar, podemos compilar ele para css
+Ou também assistir (watch) ele para o css
+Usar extensão sass
+https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
+
+É baseado em identação
+https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented
+
+Forma manual
+..\aula14\styles> sass --watch intro.sass:intro.css
+Sass is watching for changes. Press Ctrl-C to stop.

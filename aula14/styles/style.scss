@@ -1,0 +1,21 @@
+@use 'mixins';
+@use 'variables';
+
+* {
+    @include mixins.default-config();
+}
+
+.container {
+    // Mixin de largura e altura
+    @include mixins.div-size(80%, 100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: variables.$secondary-color;
+    margin: 0 auto;
+
+    .box {
+        @include mixins.div-size(300px, 200px);
+        background-color: variables.$primary-color;
+    }
+}
